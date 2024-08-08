@@ -1,0 +1,106 @@
+.autofill-button {
+  background-color: rgb(35, 35, 154);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.number-grid button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.number-grid button.selected {
+  background-color: #d896ff;
+  color: black;
+}
+
+.number-grid button.selected:before {
+  content: '\2716';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+  opacity: 0.5;
+}
+
+.powerball-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.circle, .pb {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.pb {
+  background-color: #f8f9fa;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+.powerballNumber button.selected {
+  background-color: #6a7884 !important;
+  color: white;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: 1px black;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.circle.grey {
+  background-color: #a8a8a8;
+}
+.bgcolour{
+  background-color: #3366cc;
+}
